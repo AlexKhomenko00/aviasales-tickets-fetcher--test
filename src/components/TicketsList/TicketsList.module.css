@@ -1,0 +1,23 @@
+.loadMoreTickets {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #2196f3;
+  border-radius: 5px;
+  width: 100%;
+  border: 0;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.buttonWrapper {
+  padding-bottom: 20px;
+}
+
+.ticketsList {
+  display: grid;
+  grid-template-rows: 184px;
+  row-gap: 20px;
+}

@@ -1,0 +1,56 @@
+.ticket {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30px repeat(2, 1fr);
+  padding: 20px;
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.ticket:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.price {
+  align-self: center;
+  color: #2196f3;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.logo {
+  grid-column: 3/4;
+  align-self: center;
+  justify-self: end;
+}
+
+.price,
+.logo {
+  padding-bottom: 20px;
+}
+
+.segment {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 20px;
+}
+
+.segmentData {
+  color: #4a4a4a;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.segmentTitle {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #a0b0b9;
+}
